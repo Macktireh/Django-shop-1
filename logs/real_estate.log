@@ -1,0 +1,5 @@
+2022-01-29 16:12:10,767 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 16:12:22,320 django.request WARNING  Not Found: /
+2022-01-29 16:12:22,518 django.request WARNING  Not Found: /favicon.ico
+
+2022-01-29 16:13:21,692 django.utils.autoreload INFO     Watching for file changes with StatReloader
