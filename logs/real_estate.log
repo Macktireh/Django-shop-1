@@ -3,3 +3,40 @@
 2022-01-29 16:12:22,518 django.request WARNING  Not Found: /favicon.ico
 
 2022-01-29 16:13:21,692 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 17:15:55,004 django.utils.autoreload INFO     E:\Python\Django\docker\shop-v1\config\settings\development.py changed, reloading.
+2022-01-29 17:15:56,624 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 17:35:20,317 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 17:36:09,435 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 17:49:59,653 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 17:50:07,941 django.request WARNING  Not Found: /
+2022-01-29 17:50:08,139 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:10:26,233 django.utils.autoreload INFO     E:\Python\Django\docker\shop-v1\config\urls.py changed, reloading.
+2022-01-29 18:10:28,360 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 18:10:49,593 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 18:11:13,818 django.utils.autoreload INFO     E:\Python\Django\docker\shop-v1\apps\home\urls.py changed, reloading.
+2022-01-29 18:11:15,087 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 18:11:17,719 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:24:43,333 django.request ERROR    Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\Python\Django\docker\shop-v1\.venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Python\Django\docker\shop-v1\.venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Python\Django\docker\shop-v1\apps\home\views.py", line 5, in home
+    return render(request, 'home/home.html')
+  File "E:\Python\Django\docker\shop-v1\.venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\Python\Django\docker\shop-v1\.venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\Python\Django\docker\shop-v1\.venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home/home.html
+2022-01-29 18:24:43,643 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:25:26,752 django.utils.autoreload INFO     E:\Python\Django\docker\shop-v1\apps\home\views.py changed, reloading.
+2022-01-29 18:25:28,140 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-29 18:25:32,339 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:26:47,342 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:27:08,316 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:28:19,117 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:28:56,592 django.request WARNING  Not Found: /favicon.ico
+2022-01-29 18:29:09,110 django.request WARNING  Not Found: /favicon.ico

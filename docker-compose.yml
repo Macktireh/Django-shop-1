@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  django: 
+    build: 
+      context: .
+      dockerfile: ./docker/development/django/Dockerfile
+    image: django_shopv1_development
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+    env_file:
+      - ./.env
+    ports:
+      - 8000:8000
+    command: /start
+
+  db:
+    image: postgres:14
+    container_name: postgresql
+    env_file: 
+      - ./.env
+    volumes:
+      - shop-v1_db-postgresql_date:/var/lib/postgresql/data
+
+
+volumes:
+  shop-v1_db-postgresql_date: {}
