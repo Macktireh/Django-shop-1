@@ -7,6 +7,7 @@ services:
       context: .
       dockerfile: ./docker/development/django/Dockerfile
     image: django_shopv1_development
+    container_name: django_shopv1_development
     depends_on:
       - db
     volumes:
