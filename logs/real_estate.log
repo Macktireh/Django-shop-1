@@ -45,3 +45,33 @@ django.template.exceptions.TemplateDoesNotExist: home/home.html
 2022-01-30 16:20:11,756 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
 2022-01-30 16:20:14,853 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2022-01-30 16:49:19,369 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 17:28:46,267 django.request WARNING  Not Found: /style.css
+2022-01-30 17:31:26,258 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 17:31:30,453 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 17:31:31,931 django.request WARNING  Not Found: /style.css
+2022-01-30 17:32:00,004 django.request WARNING  Not Found: /style.css
+2022-01-30 17:32:00,145 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:32:02,609 django.request WARNING  Not Found: /style.css
+2022-01-30 17:32:02,828 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:32:03,776 django.request WARNING  Not Found: /style.css
+2022-01-30 17:32:03,986 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:33:56,789 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:35:32,854 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 17:35:36,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 17:35:39,484 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:36:39,226 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:37:08,869 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:37:09,842 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:37:10,503 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:37:11,190 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:37:11,825 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:50:17,865 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 17:50:20,836 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 17:50:29,744 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:50:50,738 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 17:50:53,518 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 17:51:13,649 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:51:20,497 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 17:52:47,325 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 17:52:50,520 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 19:27:36,942 django.request WARNING  Not Found: /favicon.ico
