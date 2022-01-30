@@ -34,7 +34,7 @@ until postgres_ready; do
   sleep 1
 done
 
->&2 echo 'PostgreSQL is available'
+>&2 echo 'PostgreSQL is ready !'
 
 # Exécution du fichier /start reçu en paramètre
 exec "$@"

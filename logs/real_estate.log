@@ -40,3 +40,8 @@ django.template.exceptions.TemplateDoesNotExist: home/home.html
 2022-01-29 18:28:19,117 django.request WARNING  Not Found: /favicon.ico
 2022-01-29 18:28:56,592 django.request WARNING  Not Found: /favicon.ico
 2022-01-29 18:29:09,110 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 16:13:37,352 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 16:16:46,289 django.request WARNING  Not Found: /favicon.ico
+2022-01-30 16:20:11,756 django.utils.autoreload INFO     /app/config/settings/base.py changed, reloading.
+2022-01-30 16:20:14,853 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-01-30 16:49:19,369 django.utils.autoreload INFO     Watching for file changes with StatReloader

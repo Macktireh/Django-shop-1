@@ -35,7 +35,7 @@ RUN sed -i 's/\r$//g' /start
 RUN chmod +x /start
 
 # On copie tout le contenu du répertoire courant dans /app
-COPY . /app
+
 
 # On exécute le script entrypoint pour démarrer le travail de notre container
 ENTRYPOINT ["/entrypoint"]
