@@ -26,6 +26,5 @@ services:
     volumes:
       - shop-v1_db-postgresql_date:/var/lib/postgresql/data
 
-
 volumes:
   shop-v1_db-postgresql_date: {}
